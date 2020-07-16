@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forme</title>
+    <style>
+        label{
+            display: inline-block;
+            width: 100px;
+        }
+
+        fieldset{
+            border: solid;
+            border-color: gray;
+           
+        }
+
+       #problem {
+         margin-left: 103px;
+         }
+       
+       
+          
+    </style>
+</head>
+<body>
+    <form action="">
+  
+        <fieldset>
+            <legend>Podaci o ispitaniku</legend>
+
+            <label>Ime:</label>
+            <input type="text" value="Ana">
+            <label>Prezime:</label>
+            <input type="text" placeholder="Antic">
+            <br> <br>
+
+            <label>Skola:</label>
+            <input type="text" placeholder="ITBootcamp" disabled>
+
+            <label>Sifra:</label>
+            <input type="password">
+
+            <label>Godina rodjenja</label>
+            <input type="number" min="1900" max="300" step="1">
+
+            <br> 
+
+            <label>Datum putovanja</label>
+            <input type="date" min="2020-06-01" max="2020-09-01" step="7">
+            <br> <br>
+
+            <label>Odaberite pol</label>
+            <input type="radio" name="pol" id="" checked>Neopredeljen
+            <input type="radio" name="pol" id="">Muski
+            <input type="radio" name="pol" id="">Zenski
+
+            <br> <br>
+            <label>Moje vestine</label>
+            <input type="checkbox" name="vestine" id="">HTML
+            <input type="checkbox" name="vestine" id="" checked>JS
+            <input type="checkbox" name="vestine" id="">CSS
+            <br><br>
+
+            <label>Vas CV</label>
+            <input type="file">
+            <br><br>
+
+
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Ostale informacije</legend>
+
+            <label>Odaberite kurs</label>
+            <select>
+                <optgroup label="Nis">
+                    <option value="">Php</option>
+                    <option value="">JS</option>
+                    <option value="">QA</option>
+
+                </optgroup>
+
+                <optgroup label="Beograd">
+                    <option value="">QA</option>
+                    <option value="">JS</option>
+                    <option value="">Java</option>
+                </optgroup>
+
+            </select>
+
+
+
+        </fieldset>
+        <br>
+        <input type="submit" value="Posalji">
+        <input type="reset" value="Resetuj">
+        <input type="button" value="Klikni" onclick="alert('Zdravo')">
+        <button>Dugme</button>
+        <br><br>
+
+        <fieldset>
+            <legend>Form validation</legend>
+
+            <label>Name:</label>
+            <input type="text" >
+            <br><br>
+
+            <label>Username:</label>
+            <input type="text">
+            <br><br>
+
+            <label>Password:</label>
+            <input type="password">
+            <br><br>
+
+            <label>Retype password:</label>
+            <input type="password">
+            <br><br>
+
+            <label>Gender</label>
+            <input type="radio" name="gender" id="">Male
+            <input type="radio" name="gender" id="">Female
+            <input type="radio" name="gender" id="">Other
+            <br><br>
+
+            <label>Programing skills</label>
+            <input type="checkbox" name="vestine" id="">Java
+            <input type="checkbox" name="vestine" id="">Android
+            <input type="checkbox" name="vestine" id="">Ruby
+            <input type="checkbox" name="vestine" id="">.NET
+            <br> <br>
+
+            <label>Contact num:</label>
+            <input type="text">
+            <br><br>
+
+            <label>Email:</label>
+            <input type="text">
+            <br><br>
+
+
+            <label>College</label>
+            <select>
+                <optgroup label="Univerzitet Nis">
+                    <option value="">PMF</option>
+                    <option value="">Pravni</option>
+                    <option value="">Ekonomski</option>
+
+                </optgroup>
+
+                <optgroup label="Univerzitet Beograd">
+                    <option value="">Med fax</option>
+                    <option value="">Voj akademija</option>
+                    <option value="">PMF Beograd</option>
+                </optgroup>
+
+            </select>
+
+            <br><br>
+
+            <input id="problem" type="submit" value="Submit">
+
+        </fieldset>
+
+    </form>
+</body>
+</html>

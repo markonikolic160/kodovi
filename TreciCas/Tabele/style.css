@@ -1,0 +1,35 @@
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+tr, td, th {
+    border: solid 1px gray;
+}
+
+td, th {
+    padding: 5px;
+}
+
+.zuto {
+    background-color: yellow;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+#drugatabela tr:nth-child(even):hover{
+    background-color: yellow;
+    
+   }
+
+#drugatabela tr:nth-child(3n):hover{
+       background-color: blue;
+   }
+
+ #prvatabela tr:nth-child(odd){
+     font-style: italic;
+ }  
