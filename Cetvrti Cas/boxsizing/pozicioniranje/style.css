@@ -1,0 +1,38 @@
+#d1 {
+    background-color: greenyellow;
+    width: 500px;
+    position: relative; /*relativno u odnosu na normalnu poziciju */
+    top: 10px;
+    left: 50px;
+}
+
+#d2 {
+    position: absolute; /* apsolutno u odnosu na celu stranicu */
+    top: 22px;
+    left: 13px;
+    background-color: hotpink;
+    width: 700px;
+}
+
+#d3{
+    background-color: lightseagreen;
+    width: 590px;
+    height: 150px;
+    position: relative;
+    top: 50px;
+    left: 90px;
+}
+
+#d3 span {
+    position: absolute;
+    top: 50px;
+    right: 60px;
+}
+
+#d4 {
+    background-color: maroon;
+    width: 500px;
+    margin: 0 auto;
+    z-index: 100;
+    position: relative;
+}

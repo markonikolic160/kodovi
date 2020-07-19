@@ -1,0 +1,21 @@
+span{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 400px;
+}
+
+#prvi{
+    background-color: bisque;
+    border: solid;
+    border-width: 2px;
+    margin: 5px;
+    padding-top: 5px;
+}
+
+#drugi{
+    background-color: gray;
+    border: solid;
+    border-width: 2px;
+    padding-top: 5px;
+    margin: 5px;
+}

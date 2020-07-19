@@ -1,0 +1,15 @@
+header {
+    height: 500px;
+background: #000000 url(pirot.jpg) 100% 100% no-repeat;
+position: relative;
+background-size: cover;
+
+}
+   
+#prvi {
+
+   position: absolute;
+   top: 200px;
+   left: 500px;
+   color: red;
+}
