@@ -1,0 +1,62 @@
+header {
+    background-image: url("pirot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 100px;
+   position: relative;
+}
+
+ul {
+    padding-left: 0;
+    overflow:hidden;
+    list-style: none;
+    
+}
+ul li {
+    float: left; 
+    padding: 5px;
+    background-color: grey;
+    width: 25%;
+    border: solid 1px;
+    text-align: center;
+    box-sizing: border-box; 
+   
+
+    
+}
+
+li:hover{
+    background-color: red;
+}
+
+p {
+    position: absolute;
+    top: 50px;
+    left: 550px;
+
+}
+
+.padajuce {
+   display: none;
+  
+  
+}
+
+.meni:hover .padajuce  {
+   display: block;
+  
+   background-color: red;
+   
+}
+
+.padajuce li {
+    width: 100%;
+    margin-top: 1px;
+    border: none;
+    background-color: white;   
+     
+}
+
+.padajuce li:hover {
+    background-color: yellow;
+}

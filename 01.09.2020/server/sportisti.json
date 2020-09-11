@@ -1,0 +1,22 @@
+{
+"sportisti":[
+{
+    "id": 1,
+    "imePrezime": "Vlade Divac",
+    "visina": 216,
+    "timovi": ["Sloga","Partizan","Lakers","Charlote","Zvezda","Sacramento"]
+},
+{
+    "id": 2,
+    "imePrezime": "Predrag Stojakovic",
+    "visina": 208,
+    "timovi": ["Zvezda","Paok","Sacramento","Indiana","New Orleans","Toronto","Dalas"]
+},
+{
+    "id":3,
+    "imePrezime": "Dejan Bodiroga",
+    "visina": 206,
+    "timovi": ["Proleter","Zadar","Trst","Olimpija","Real Madrid","Panathinaikos","Barcelona","Virtus"]
+}
+]
+}

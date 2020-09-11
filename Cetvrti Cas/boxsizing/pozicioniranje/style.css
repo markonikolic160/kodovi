@@ -4,6 +4,7 @@
     position: relative; /*relativno u odnosu na normalnu poziciju */
     top: 10px;
     left: 50px;
+    z-index: 1;
 }
 
 #d2 {
@@ -19,13 +20,14 @@
     width: 590px;
     height: 150px;
     position: relative;
-    top: 50px;
+    top: 120px;
     left: 90px;
+    
 }
 
 #d3 span {
     position: absolute;
-    top: 50px;
+    top: 0px;
     right: 60px;
 }
 
@@ -33,6 +35,5 @@
     background-color: maroon;
     width: 500px;
     margin: 0 auto;
-    z-index: 100;
-    position: relative;
+   position: relative;
 }

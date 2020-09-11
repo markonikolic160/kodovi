@@ -1,0 +1,60 @@
+.meni{
+    margin-right: 60px;
+    font-size: 30px;
+}
+
+a:hover {
+    color: orange;
+}
+th,th {
+    text-align: center;
+}
+table{
+    clear: both;
+    width: 60%;
+    margin: 0 ;
+}
+table tr:nth-child(3){
+    align-items: center;
+}
+
+
+td {
+    width: 33%;
+}
+img {
+    max-width: 120px;
+    width: 100%;
+    display: block;
+    max-height: 200px;
+    height: 100%;
+    object-fit: cover;
+}
+.red {
+    color: orange;
+}
+.grad {
+    color: orange;
+}
+.qa {
+    color: green;
+}
+
+.onama {
+    
+    float: left;
+    margin: 10px;
+    background-color: greenyellow;
+    border: solid 2px;
+    padding: 5px;
+    
+}
+input {
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+.unos{
+    margin: 2px;
+    padding: 5px;
+}

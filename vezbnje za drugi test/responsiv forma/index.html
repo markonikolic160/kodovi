@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        input { font-family: FontAwesome; }
+    </style>
+</head>
+<body>
+    <h1> Responsiv Forma </h1>
+    <p> Promenite sirinu prozora kako biste videli efekat forme. kada je ekran manji od 600px,
+        formu kreirati tako da se njeni elementi nalaze jedni ispod drugih.   </p>
+    <div class="forma">
+    <form action="#">
+     
+        <div class="col-3">
+            <label> Ime i prezime </label>
+        </div>
+        <div class="col-9">
+            <input type="text" autofocus placeholder="Ime prezime">
+        </div>
+
+        <div class="col-3">
+            <label>Pretrazite</label>
+        </div>
+        <div class="col-9">
+            <input type="search" class="search" placeholder="&#xF002; Pretrazite">
+        </div>
+
+        <div class="col-3">
+            <label>Zemlja</label>
+        </div>
+        <div class="col-9">
+          <select id="zemlja" name="Zemlja">
+            <option value="Italija">Italija</option>
+            <option value="Srbija">Srbija</option>
+            <option value="Spanija">Spanija</option>
+          </select>
+        </div>
+
+        <div class="col-3">
+            <label>Opis</label>
+        </div>
+        <div class="col-9">
+          <textarea placeholder="Napisi neki opis..."></textarea>
+        </div>
+
+        <input class="col-2" type="submit" value="Potvrdite">
+    </form>
+    </div>
+   <div class="forma">
+       <form action="#" class="col-12">
+        <fieldset>
+            <label>Radio butoni</label> 
+            <input type="radio" value="neopredeljen" name="pol" checked>neopredeljen
+            <input type="radio" value="muski" name="pol">Muski
+            <input type="radio" value="zenski" name="pol">zenski
+
+        </fieldset>
+        <fieldset>
+            <label>Cekboksovi</label> <br>
+            <input type="checkbox" value="html" name="kurs" checked>HTML
+            <input type="checkbox" value="css" name="kurs">css
+            <input type="checkbox" value="php" name="kurs">php
+            <input type="checkbox" value="c#" name="kurs">c#
+        </fieldset>
+    </form>
+    </div> 
+</div>
+</body>
+</html>

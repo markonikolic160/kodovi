@@ -1,0 +1,18 @@
+#centralni {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 70%;
+}
+
+span {
+    height: calc((100vh - 200px) / 10);
+}
+
+table{
+    
+    display:block;
+}
+
+th,td {
+    border:1px solid black
+}
