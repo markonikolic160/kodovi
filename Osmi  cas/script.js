@@ -436,3 +436,5 @@ if (danButik==0 || danButik==6){
         console.log("Radni dan otvoreno");
     }
 }
+
+// neke promene za comit
